@@ -34,3 +34,22 @@
 /* 6. exercice-all-in-1 */
 
 /* 7. exercice-all-in-2 */
+.exercice-all-in-2 .container-small {
+ display:flex;
+ flex-flow: row wrap;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+}
+
+.exercice-all-in-2 .element-yellow {
+  order:0;
+}
+
+.exercice-all-in-2 .element-pink {
+  order:1;
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-blue {
+  flex-grow: 1;
