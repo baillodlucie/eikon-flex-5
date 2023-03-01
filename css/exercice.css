@@ -50,13 +50,6 @@ align-items: baseline;
   align-content: center;
 }
 
-.exercice-all-in-1 .element-grey {
- align-self: flex-start;
-}
-
-.exercice-all-in-1 .element-green {
-  align-self: flex-end;
-}
 
 /* 7. exercice-all-in-2 */
 .exercice-all-in-2 .container-small {
