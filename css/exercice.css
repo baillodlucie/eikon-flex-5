@@ -6,9 +6,15 @@
 }
 
 /* 2. exercice-baseline-2 */
-.exercice-baseline-2 .container-small {
+.exercice-baseline-2 .container {
 display:flex;
-flex-flow: column-reverse wrap;
+flex-flow:row-reverse wrap-reverse;
+align-items: baseline;
+}
+
+.exercice-baseline-2 .element {
+  width:50%;
+  box-sizing: border-box;
 }
 
 /* 3. exercice-baseline-3 */
