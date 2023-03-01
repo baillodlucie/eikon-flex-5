@@ -4,7 +4,6 @@
   flex-direction: row;
   align-items: baseline;
 }
-/* 2. exercice-baseline-2 */
 
 /* 2. exercice-baseline-2 */
 .exercice-baseline-2 .container-small {
@@ -58,7 +57,7 @@ flex-flow: column-reverse wrap;
  display:flex;
  flex-flow: row wrap;
  justify-content: center;
- align-items: center;
+ align-items: baseline;
  align-content: center;
 }
 
